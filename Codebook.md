@@ -12,7 +12,7 @@ label | activity
 5 | STANDING
 6 | LAYING
 
-The first tidy data set (PJtest_train) consists of all 561 features, which are described in 'features_info.txt'. The complete list of variables of each feature vector is available in 'features.txt'. 
+The first tidy data set (PJtest_train) consists 'subject', 'label', and the entire list of 561 features, which are described in 'features_info.txt'. The complete list of variables of each feature vector is available in 'features.txt'. 
 
 The following variables make up the second tidy data set (avgByActivitySubject). 'activity' and 'label' are listed above; 'subject' includes 30 volunteers that took part in the study. The other 79 variables below 'label' are from the feature selection, consisting of features' mean() and std() only.
 
