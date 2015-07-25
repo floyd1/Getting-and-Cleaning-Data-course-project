@@ -44,5 +44,5 @@ All of the steps are thoroughly commented within the script itself, but to give 
 6. A new first column, "activity", is added to PJtrain_test_MeanStd with descriptive activity names.
 7. An independent tidy data set, avgByActivitySubject, is generated from PJtrain_test_MeanStd with the average of each variable for each activity and each subject.
 8. Finally, the script generates two data views:
-    a. of the first merged tidy data set PJtrain_test, titled "Merged Train and Test Sets"; and,
-    b. of the second tidy data set avgByActivitySubject, titled "Averages by Activity and Subject".
+  1. of the first merged tidy data set PJtrain_test, titled "Merged Train and Test Sets"; and,
+  2. of the second tidy data set avgByActivitySubject, titled "Averages by Activity and Subject".
