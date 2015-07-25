@@ -86,7 +86,7 @@ avgByActivitySubject <- PJtrain_test_MeanStd %>% group_by(activity, subject) %>%
 
 
 #show results - 1. Combined test and train datasets, 2. Average by activity and subject.
-View(PJtrain_test)
+View(PJtrain_test, "Merged Train and Test Sets)
 View(avgByActivitySubject, "Averages by Activity and Subject")
 
 
