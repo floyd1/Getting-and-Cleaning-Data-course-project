@@ -26,8 +26,10 @@ label_names <- read.csv("./UCI HAR Dataset/activity_labels.txt", header = FALSE,
 colnames(label_names) <- c("label", "description")
 
 #Load volunteer (subject) data for both test and train sets.
-subjectsTest <- read_table("./UCI HAR Dataset/test/subject_test.txt", col_names = "subject")
-subjectsTrain <- read_table("./UCI HAR Dataset/train/subject_train.txt", col_names = "subject")
+subjectsTest <- read.csv("./UCI HAR Dataset/test/subject_test.txt", header = FALSE)
+colnames(subjectsTest) <- "subject"
+subjectsTrain <- read.csv("./UCI HAR Dataset/train/subject_train.txt", header = FALSE)
+colnames(subjectsTrain) <- "subject"
 
 #Specify file locations. Working directory must be set to one level above "UCI HAR Dataset"
 filePJtestX <- "./UCI HAR Dataset/test/X_test.txt"
