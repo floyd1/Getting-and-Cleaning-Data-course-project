@@ -1,18 +1,7 @@
 # Data Dictionary
 
 
-Activity labels consist of the following:
-
-label | activity
---- | ---
-1 | WALKING
-2 | WALKING_UPSTAIRS
-3 | WALKING_DOWNSTAIRS
-4 | SITTING
-5 | STANDING
-6 | LAYING
-
-The first tidy data set (PJtrain_test) consists of the following: 'subject', 'label', and the entire list of 561 features, which are described in 'features_info.txt'. The complete list of variables of each feature vector is available in 'features.txt'. 
+The first tidy data set (PJtrain_test) consists of the following variables: 'subject', 'label', and the entire list of 561 features, which are described in 'features_info.txt'. The complete list of variables of each feature vector is available in 'features.txt'. 
 
 The following variables make up the second tidy data set (avgByActivitySubject): 'activity' and 'label' are listed above; 'subject' includes 30 volunteers that took part in the study; the other 79 variables below 'label' are from the feature selection, consisting of features' mean() and std() only.
 
@@ -100,3 +89,15 @@ The following variables make up the second tidy data set (avgByActivitySubject):
 |fBodyBodyGyroJerkMag-mean()|	numeric|	[-1,1]|
 |fBodyBodyGyroJerkMag-std()|	numeric|	[-1,1]|
 |fBodyBodyGyroJerkMag-meanFreq()|	numeric|	[-1,1]|
+
+
+Activity labels consist of the following:
+
+label | activity
+--- | ---
+1 | WALKING
+2 | WALKING_UPSTAIRS
+3 | WALKING_DOWNSTAIRS
+4 | SITTING
+5 | STANDING
+6 | LAYING
