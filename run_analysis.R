@@ -55,7 +55,7 @@ PJtrain_test <- rbind.data.frame(PJtrain, PJtest)
 #2. Extracts only the measurements on the mean and standard deviation for each measurement. 
 
 #extract the indexes of the columns that contain "mean" or "std" strings
-MeanStdCols <- MeanStdCols <- which(grepl("mean|std", feature_names[,"feature"]))
+MeanStdCols <- MeanStdCols <- which(grepl("[Mm]ean|std", feature_names[,"feature"]))
 
 #create a new feature vector with only the mean and std variables
 feature_names_MeanStd <- feature_names[MeanStdCols,"feature"]
