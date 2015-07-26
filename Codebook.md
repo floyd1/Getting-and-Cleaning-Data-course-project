@@ -3,7 +3,7 @@
 
 The first tidy data set (PJtrain_test) consists of the following variables: 'subject', 'label', and the entire list of 561 features, which are described in 'features_info.txt'. The complete list of variables of each feature vector is available in 'features.txt'. 
 
-The following variables make up the second tidy data set (avgByActivitySubject): 'activity' and 'label' are listed above; 'subject' includes 30 volunteers that took part in the study; the other 79 variables below 'label' are from the feature selection, consisting of features' mean() and std() only.
+The following variables make up the second tidy data set (avgByActivitySubject): 'activity' and 'label' are listed above; 'subject' includes 30 volunteers that took part in the study; the other 86 variables below 'label' are from the feature selection, consisting of features' mean() and std() only.
 
 |Variable name	|Units	|Domain
 |---|	---|	---|
@@ -89,7 +89,13 @@ The following variables make up the second tidy data set (avgByActivitySubject):
 |fBodyBodyGyroJerkMag-mean()|	numeric|	[-1,1]|
 |fBodyBodyGyroJerkMag-std()|	numeric|	[-1,1]|
 |fBodyBodyGyroJerkMag-meanFreq()|	numeric|	[-1,1]|
-
+|angle(tBodyAccMean,gravity)|	numeric|	[-1,1]|
+|angle(tBodyAccJerkMean),gravityMean)|	numeric|	[-1,1]|
+|angle(tBodyGyroMean,gravityMean)|	numeric|	[-1,1]|
+|angle(tBodyGyroJerkMean,gravityMean)|	numeric|	[-1,1]|
+|angle(X,gravityMean)|	numeric|	[-1,1]|
+|angle(Y,gravityMean)|	numeric|	[-1,1]|
+|angle(Z,gravityMean)|	numeric|	[-1,1]|
 
 Activity labels consist of the following:
 
