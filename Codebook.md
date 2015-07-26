@@ -89,6 +89,11 @@ The following variables make up the second tidy data set (avgByActivitySubject):
 |fBodyBodyGyroJerkMag-mean()|	numeric|	[-1,1]|
 |fBodyBodyGyroJerkMag-std()|	numeric|	[-1,1]|
 |fBodyBodyGyroJerkMag-meanFreq()|	numeric|	[-1,1]|
+
+The following variables were omitted from the avgByActivitySubject data set, as they are measures of angles, not means:
+
+|Variable name	|
+|---|
 |angle(tBodyAccMean,gravity)|	numeric|	[-1,1]|
 |angle(tBodyAccJerkMean),gravityMean)|	numeric|	[-1,1]|
 |angle(tBodyGyroMean,gravityMean)|	numeric|	[-1,1]|
