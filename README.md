@@ -46,3 +46,8 @@ All of the steps are thoroughly commented within the script itself, but to give 
 8. Finally, the script generates two data views:
   1. of the first merged tidy data set PJtrain_test, titled "Merged Train and Test Sets"; and,
   2. of the second tidy data set avgByActivitySubject, titled "Averages by Activity and Subject".
+
+## 4. Reading the generated text file of the "Averages by Activity and Subject" into R
+
+* Filename: __avgByActivitySubject.txt__
+* Space-separated, so use __sep = " "__ when reading the file into R
